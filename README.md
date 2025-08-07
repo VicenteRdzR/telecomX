@@ -44,8 +44,11 @@ telecomX/
 
 ### 1. Clonar el repositorio
 '''bash
+
 git clone https://github.com/VicenteRdzR/telecomX.git
+
 cd telecomX
+
 pip install -r requirements.txt
 
 ## ⚙️ Ejecucion
@@ -59,7 +62,8 @@ python src/transform.py
 ### 3. Ejecutar script de analisis
 python src/analisis.py
 
-📫 Contacto
+## 📫 Contacto
 
 Vicente Rodríguez
+
 jvicente.rdz.r@gmail.com
