@@ -9,10 +9,13 @@ telecomX/
 ├── data/
 │ └── TelecomX_Data.json
 ├── plots/
-│ └── graficas/
-│ ├── churn_distribution.png
-│ ├── contract_vs_churn.png
-│ └── internetservice_vs_churn.png
+│ ├── churn_account_Contract.png
+│ ├── churn_account_PaymentMethod.png
+│ ├── churn_customer_gender.png
+│ ├── distribucion_account_Charges.Monthly.png
+│ ├── distribucion_account_Charges.Total.png
+│ ├── distribucion_churn.png
+│ └── distribucion_customer_tenure.png
 ├── src/
 │ ├── analisis.py
 │ ├── etl.py
@@ -20,13 +23,13 @@ telecomX/
 ├── requirements.txt
 └── README.md
 
+
 ## ⚙️ Instalación
 
 ### 1. Clonar el repositorio
-```bash
+'''bash
 git clone https://github.com/VicenteRdzR/telecomX.git
 cd telecomX
-
 pip install -r requirements.txt
 
 ## ⚙️ Ejecucion
