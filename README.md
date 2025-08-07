@@ -6,21 +6,37 @@ Este proyecto realiza un análisis exploratorio de datos de una empresa de telec
 ##  📁 Estructura del Proyecto
 
 telecomX/
+
 ├── data/
+
 │ └── TelecomX_Data.json
+
 ├── plots/
+
 │ ├── churn_account_Contract.png
+
 │ ├── churn_account_PaymentMethod.png
+
 │ ├── churn_customer_gender.png
+
 │ ├── distribucion_account_Charges.Monthly.png
+
 │ ├── distribucion_account_Charges.Total.png
+
 │ ├── distribucion_churn.png
+
 │ └── distribucion_customer_tenure.png
+
 ├── src/
+
 │ ├── analisis.py
+
 │ ├── etl.py
+
 │ └── transform.py
+
 ├── requirements.txt
+
 └── README.md
 
 
